@@ -1,0 +1,22 @@
+STARTTIMING: main
+|   STARTTIMING: loop
+|   |   STARTTIMING: doSomeStuff()
+|   |   STOPTIMING: doSomeStuff() 6
+|   |   STARTTIMING: doSomeStuff()
+|   |   STOPTIMING: doSomeStuff() 4
+|   |   STARTTIMING: doSomeStuff()
+|   |   STOPTIMING: doSomeStuff() 5
+|   |   STARTTIMING: doSomeStuff()
+|   |   STOPTIMING: doSomeStuff() 4
+|   |   STARTTIMING: doSomeStuff()
+|   |   STOPTIMING: doSomeStuff() 3
+|   STOPTIMING: loop 24
+|   STARTTIMING: array10000
+|   STOPTIMING: array10000 13
+|   COMMENT: bubble and quick sort, 10000 next
+|   STARTTIMING: Bubble Sort
+|   STOPTIMING: Bubble Sort 105
+|   STARTTIMING: Quick Sort
+|   STOPTIMING: Quick Sort 1
+STOPTIMING: main 150
+TOTALTIME: 150.0ms

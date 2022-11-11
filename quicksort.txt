@@ -1,0 +1,3 @@
+STARTTIMING: Quick Sort
+STOPTIMING: Quick Sort 9.1
+TOTALTIME: 9.1ms

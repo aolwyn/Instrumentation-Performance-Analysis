@@ -1,0 +1,4 @@
+STARTTIMING: Bubble Sort
+STOPTIMING: Bubble Sort 0
+COMMENT: 10000 size
+TOTALTIME: 1.0ms
