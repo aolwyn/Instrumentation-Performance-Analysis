@@ -1,5 +1,13 @@
-public class QuickSort {
-    //methods retrieved from geeksforgeeks. 
+class QuickSort {
+
+    Instrumentation ins = Instrumentation.Instance();
+    public void getQuickSort(int[] arr, int min, int max){
+        ins.startTiming("Quick Sort");
+        quickSort(arr, min, max);
+        ins.stopTiming("Quick Sort");
+    }
+
+    //following methods retrieved from geeksforgeeks. 
     public static void swap(int[] arr, int i, int j)
     {
         int temp = arr[i];
